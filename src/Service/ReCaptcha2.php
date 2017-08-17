@@ -326,7 +326,10 @@ class ReCaptcha2
         }
 
         /* Fetch an instance of the http client */
-        $httpClient = new HttpClient;
+        $httpClient = new HttpClient(null, array(
+                                          'adapter' => 'Zend\Http\Client\Adapter\Socket',
+                                          'sslverifypeer' => false
+                                     ));
         $httpClient->resetParameters(true);
 
         $postParams = array(
