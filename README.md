@@ -3,6 +3,13 @@
 Provides [Google ReCaptcha v2](https://www.google.com/recaptcha/intro/index.html) integration for
 [Zend Framework 3](https://github.com/zendframework/zendframework).
 
+ATTENTION: This is a fork of the original project.
+Our fork is temporary and needed in order to use the library when this error happens:
+
+```
+Unable to enable crypto on TCP connection www.google.com: make sure the "sslcapath" option points to a valid SSL certificate directory
+```
+
 ## Installation
 
 Install this library using composer:
