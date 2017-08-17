@@ -15,7 +15,7 @@ Unable to enable crypto on TCP connection www.google.com: make sure the "sslcapa
 Install this library using composer:
 
 ```bash
-$ composer require xorock/zend-service-recaptcha-v2
+$ composer require venixsoftwaregeneral/zend-service-recaptcha-v2
 ```
 
 Then add `ZfServiceReCaptcha2` to Your module config under the `modules` key.
